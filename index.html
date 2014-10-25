@@ -5,6 +5,11 @@
   <title></title>
 </head>
 <body>
-  <script>location.href = 'http://jacsonlee.github.io/Blog'</script>
+<script>
+	;(function (loc, tar) {
+		loc.href = tar + loc.search + loc.hash
+	}) (location, 'http://jacsonlee.github.io/Blog')
+</script>
+
 </body>
 </html>
